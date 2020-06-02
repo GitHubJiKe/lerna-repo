@@ -1,0 +1,25 @@
+{
+  "name": "button",
+  "version": "1.0.0",
+  "description": "Button 组件",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "father-build"
+  },
+  "peerDependencies": {
+    "@babel/runtime": "^7.0.0",
+    "antd": "^4.2.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "author": "PengfeiYuan",
+  "license": "ISC"
+}

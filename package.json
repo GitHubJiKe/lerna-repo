@@ -1,0 +1,24 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "dumi": "^1.0.30",
+    "father-build": "^1.18.0",
+    "lerna": "^3.22.0",
+    "typescript": "^3.9.3",
+    "yorkie": "^2.0.0"
+  },
+  "scripts": {
+    "dev:page": "dumi dev",
+    "build:page": "dumi build",
+    "build:comp": "father-build"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
