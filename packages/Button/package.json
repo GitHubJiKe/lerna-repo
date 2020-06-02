@@ -1,6 +1,6 @@
 {
-  "name": "@peteryuan/button",
-  "version": "1.0.4",
+  "name": "peteryuan-button",
+  "version": "0.0.1",
   "description": "Button 组件",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -22,5 +22,5 @@
   },
   "author": "PengfeiYuan",
   "license": "MIT",
-  "gitHead": "d022184259a49aab926b40ef88ee6d1ea5d8cfa7"
+  "gitHead": "65f44fbab76745b92c004437632719e409d195a8"
 }
