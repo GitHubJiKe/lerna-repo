@@ -13,7 +13,8 @@
   "scripts": {
     "dev:page": "dumi dev",
     "build:page": "dumi build",
-    "build:comp": "father-build"
+    "build:comp": "father-build",
+    "publish": "lerna publish --yes"
   },
   "dependencies": {
     "@types/react": "^16.9.35",
