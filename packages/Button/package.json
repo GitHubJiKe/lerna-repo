@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "@peteryuan/button",
   "version": "1.0.2",
   "description": "Button 组件",
   "main": "dist/index.js",
@@ -21,5 +21,6 @@
     "react-dom": "^16.13.1"
   },
   "author": "PengfeiYuan",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "17324c9ab89b107d076baad910e32a72f02287f8"
 }
