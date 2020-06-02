@@ -1,15 +1,27 @@
 import React from "react";
+import "bulma/css/bulma.css";
 
 interface IButtonProps {
-  text: string;
-  onClick(): void;
+  onClick?(e: React.MouseEvent<HTMLButtonElement, MouseEvent>): void;
+  type?: "danger" | "primary" | "link" | "info" | "success" | "warning";
 }
 
-export default function Button(props: IButtonProps) {
-  return <button onClick={props.onClick}>{props.text}</button>;
-}
+const Button: React.FC<IButtonProps> = (props) => {
+  const className = props.type ? `button is-${props.type}` : "button";
+
+  const onClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    props.onClick && props.onClick(e);
+  };
+
+  return (
+    <button className={className} onClick={onClick}>
+      {props.children || "Button"}
+    </button>
+  );
+};
 
 Button.defaultProps = {
-  text: "Button",
   onClick: () => alert("I am Button"),
 };
+
+export default Button;
