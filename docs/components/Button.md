@@ -1,3 +1,3 @@
 # Button
 
-<code src="../../packages/Button/demo.tsx" title="Button" />
+<code src="../../packages/Button/src/demo.tsx" title="Button" />
